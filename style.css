@@ -79,7 +79,7 @@ p {
 }
 
 
-button {
+.button {
     background-color: #3882f6;
     width: 90px;
     height: 25px;
@@ -159,4 +159,38 @@ button {
     margin-left: auto;
     font-style: normal;
     font-weight: bold;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+}
+
+.card {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.action-call {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.special {
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
 }
