@@ -169,6 +169,7 @@ p {
 
 .card {
     display: flex;
+    flex-wrap: wrap;
     background-color: #3882f6;
     justify-content: space-between;
     align-items: center;
@@ -193,4 +194,14 @@ p {
     border-radius: 5px;
     border: 1px solid white;
     color: white;
+}
+
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    justify-content: center;
+    font-weight: lighter;
+    padding: 20px;
 }
