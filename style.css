@@ -15,10 +15,11 @@ body {
     flex-direction: column;
     flex: 1;
     justify-content: space-between;
+    gap: 100px;
     background-color: #1f2937;
     color: #E5E7EB;
     padding-top: 25px;
-    padding-bottom: 45px;
+    padding-bottom: 75px;
     padding-left: 90px;
     padding-right: 90px;
     height: 300px;
@@ -88,14 +89,18 @@ button {
     
 }
 
+.central-body {
+    display: flex;
+    flex-direction: column;
+}
+
 .info-connect {
     display: flex;
     flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
-    padding-top: 35px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-top: 55px;
+    padding-bottom: 100px;
 }
 
 
@@ -103,6 +108,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 35px;
     gap: 75px;
 }
 
@@ -131,4 +137,26 @@ button {
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.speaker {
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    font-style: normal;
+    font-weight: bold;
 }
