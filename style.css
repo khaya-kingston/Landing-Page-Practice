@@ -126,7 +126,7 @@ p {
     color: black;
 }
 
-.placeholder-blok {
+.placeholder-blok, img {
     display: flex;
     width: 150px;
     height: 150px;
@@ -138,6 +138,7 @@ p {
     align-items: center;
     margin-bottom: 0;
 }
+
 
 .quote-section {
     display: flex;
